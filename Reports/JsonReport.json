@@ -1,0 +1,406 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Login",
+        "description": "",
+        "id": "buy-clothes;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12510263700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "Step_Definition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 463216300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter The Username In \"A1\" Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A1",
+                  "offset": 28
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_Username_In_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243047400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter The Password In \"1234567\" Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567",
+                  "offset": 28
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_Password_In_Password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1559560100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Click On The Signin Button And It Navigates To The My Account page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_signin_button_and_it_navigates_to_the_my_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Ap1"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login",
+        "description": "",
+        "id": "buy-clothes;login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4103754300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "Step_Definition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197171600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter The Username In \"B1\" Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "B1",
+                  "offset": 28
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_Username_In_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197739200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter The Password In \"34567\" Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "34567",
+                  "offset": 28
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_Password_In_Password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1732783700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Click On The Signin Button And It Navigates To The My Account page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_signin_button_and_it_navigates_to_the_my_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Ap1"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Login",
+        "description": "",
+        "id": "buy-clothes;login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3730703300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "Step_Definition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 257597700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter The Username In \"manukrizz322@gmail.com\" Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "manukrizz322@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_Username_In_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245922600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter The Password In \"Manukrizz@4052\" Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manukrizz@4052",
+                  "offset": 28
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_Password_In_Password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1856676300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Click On The Signin Button And It Navigates To The My Account page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_signin_button_and_it_navigates_to_the_my_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Ap1"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Women Category Tops",
+        "description": "",
+        "id": "buy-clothes;women-category-tops",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 395704100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Mouse Hover to the Women Option",
+            "match": {
+              "location": "Step_Definition.user_mouse_hover_to_the_women_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3341295200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Click On The Tops Category in Women Option",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_tops_category_in_women_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256150300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user Click On The Product Image",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_product_image()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3321477100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user Click On The Add To Cart Button",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4637324800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user Click On The Proceed To Checkout Button In Product Page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_proceed_to_checkout_button_in_product_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2530136000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user Click On The Proceed To Checkout Button In Shopping Cart Summary Page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_proceed_to_checkout_button_in_shopping_cart_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1511202200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user Click On The Proceed To Checkout Button In Addresses Page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_proceed_to_checkout_button_in_addresses_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159366200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user Click On The Terms Of Service CheckBox In Shipping Page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_terms_of_service_check_box_in_shipping_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1563392400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user Click On The Proceed To Checkout Button In Shipping page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_proceed_to_checkout_button_in_shipping_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1685564300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user Click On The Pay By Bank Wire Option In Payment Page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_pay_by_bank_wire_option_in_payment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2672499000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user Click On The I Confirm My Order In Order Summary Page",
+            "match": {
+              "location": "Step_Definition.user_click_on_the_i_confirm_my_order_in_order_summary_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Ap2"
+          }
+        ]
+      }
+    ],
+    "name": "Buy clothes",
+    "description": "",
+    "id": "buy-clothes",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/Automation_Practice/feature/AutomationPractice.feature"
+  }
+]
