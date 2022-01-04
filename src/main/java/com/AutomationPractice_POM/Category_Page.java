@@ -102,7 +102,7 @@ public class Category_Page {
 		return tshirt_productimg;
 	}
 
-	@FindBy(xpath="(//img[@itemprop='image'])[2]")
+	@FindBy(xpath="(//img[@itemprop='image'])[1]")
 	private WebElement women_dresses_productimg;
 	
 	@FindBy(xpath="//img[@itemprop='image']")
